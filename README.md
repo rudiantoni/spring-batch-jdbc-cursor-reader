@@ -44,4 +44,4 @@
 
 Log image with working example:
 - **Linux**: [spring-batch-jdbc-cursor-reader](https://i.imgur.com/oo7F2UW.png)
-- **Windows**: [spring-batch-jdbc-cursor-reader]()
+- **Windows**: [spring-batch-jdbc-cursor-reader](https://i.imgur.com/d3ptTxS.png)
