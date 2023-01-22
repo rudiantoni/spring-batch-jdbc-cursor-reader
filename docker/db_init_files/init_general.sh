@@ -5,6 +5,7 @@ SQL_FILE_DB_CREATION=/docker-entrypoint-initdb.d/.sql/database_creation.sql
 SQL_FILE_APP_DB_STRUCTURE=/docker-entrypoint-initdb.d/.sql/app_data_db_initial_structure.sql
 SQL_FILE_APP_DB_DATA=/docker-entrypoint-initdb.d/.sql/app_data_db_initial_data.sql
 
+
 echo
 echo "Running SQL file ($SQL_FILE_DB_CREATION) to database ($STD_PG_DB) with user ($STD_PG_USER)."
 psql --set=dbname=$APP_DATA_DB --echo-all --username $STD_PG_USER --dbname $STD_PG_DB --file $SQL_FILE_DB_CREATION
